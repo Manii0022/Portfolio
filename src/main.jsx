@@ -8,8 +8,12 @@ import About from './components/about/About'
 import Projects from './components/project/Projects'
 import Resume from './components/resume/Resume'
 import Particle from './components/Particle'
+import LandingLayout from './components/LandingLayout.jsx'
+
+
 const router = createBrowserRouter(createRoutesFromElements(
-  <Route path='/' element={<Home />}>
+  <Route path='/' element={<LandingLayout />}>
+    <Route index={true} element={<Home />} />
     <Route path='about' element={<About />} />
     <Route path='projects' element={<Projects />} />
     <Route path='resume' element={<Resume />} />
