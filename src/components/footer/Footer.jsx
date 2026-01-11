@@ -3,7 +3,9 @@ function Footer() {
         <>
 
             <div>
-                <p className="text-5xl text-purple-600 text-center"></p>
+                <p className="text-5xl text-purple-600 text-center">
+                    hello from footer
+                </p>
             </div>
         </>
     )
