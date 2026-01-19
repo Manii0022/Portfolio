@@ -43,7 +43,7 @@ const Particle = () => {
         straight: false,
       },
       size: {
-        value: 1,
+        value: 1.2,
       },
       opacity: {
         value: { min: 0.05, max: 0.5 },
