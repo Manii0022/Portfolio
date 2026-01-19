@@ -9,6 +9,7 @@ import Projects from './components/project/Projects'
 import Resume from './components/resume/Resume'
 import Particle from './components/Particle'
 import LandingLayout from './components/LandingLayout.jsx'
+import CursorGlow from './components/CursorGlow.jsx'
 
 
 const router = createBrowserRouter(createRoutesFromElements(
@@ -22,11 +23,11 @@ const router = createBrowserRouter(createRoutesFromElements(
 
 createRoot(document.getElementById('root')).render(
   <>
+    <CursorGlow />
     <Particle />
     <div style={{ position: "relative", zIndex: 0, width: "100%" }}>
       <RouterProvider router={router} />
     </div>
   </>
-
 
 )
