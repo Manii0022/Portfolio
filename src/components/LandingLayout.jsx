@@ -13,12 +13,12 @@ function LandingLayout() {
                 <Header2 />
 
                 {/* Main Content */}
-                <main className='pt-20'>
+                <main className='pt-50 pl-30 pr-30'>
                     <Outlet />
                 </main>
 
                 {/* Footer */}
-                <Footer />
+                {/* <Footer /> */}
             </div>
 
         </>
