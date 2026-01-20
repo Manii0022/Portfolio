@@ -23,7 +23,7 @@ const router = createBrowserRouter(createRoutesFromElements(
 
 createRoot(document.getElementById('root')).render(
   <>
-    <CursorGlow />
+    {/* <CursorGlow /> */}
     <Particle />
     <div style={{ position: "relative", zIndex: 0, width: "100%" }}>
       <RouterProvider router={router} />
