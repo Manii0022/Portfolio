@@ -14,24 +14,18 @@ function Home() {
     <>
       <div className="flex">
         <div className=" text-white w-[60%]">
-          <h1 style={{ paddingBottom: 15 }} className="heading">
-            Hi There!{" "}
-            <span className="wave" >
-              👋🏻
+          <h1 className="text-3xl">
+            Hi There!
+          </h1>
+          <p className="text-[100px]">I'm {" "}
+            <span className=" main-name">
+              Manish
             </span>
-          </h1>
-          <h1 className="heading-name">
-            I'M
-            <strong className="main-name"> MANISH</strong>
-          </h1>
-
-          <div style={{ padding: 50, textAlign: "left" }}>
-            <Type />
-          </div>
-
+          </p>
+          <Type />
         </div>
 
-        <div className="">
+        <div>
           <img
             src={homeLogo}
             alt="home pic"
@@ -42,48 +36,43 @@ function Home() {
 
       <div className="flex mt-20">
         <div className="text-white w-[60%] p-5">
-          <h1 style={{ fontSize: "2.6em" }}>
+          <h1 className="text-[45px] text-center">
             LET ME <span className="purple"> INTRODUCE </span> MYSELF
           </h1>
-          <p className="home-about-body">
-            I’m a Software Engineer who loves transforming ideas into
-            reliable, scalable products. Over time, I’ve explored several
-            technologies and found my passion in building high-performance
-            systems and intuitive user experiences.
+          <p className=" pt-12.5 text-justify text-[20px]">
+            I’m a Software Engineer who enjoys transforming ideas into reliable, scalable, and secure products.
+            Over time, I’ve worked across multiple technologies and discovered a strong interest in
+            designing high-performance backend systems and building clean, intuitive user experiences.
             <br />
             <br />
             I’m proficient in
             <i>
-              <b className="purple">
-                {" "}
-                JavaScript, C++, Rust, Node.js, and Java{" "}
-              </b>
+              <b className="purple">{" "}Java, Python, C++, JavaScript and React.Js{" "}</b>
             </i>
-            — and I enjoy working across both backend and frontend stacks.
+            — and comfortable working across both{" "}
+            <b className="purple">backend</b> and{" "}
+            <b className="purple">frontend</b> stacks.
             <br />
             <br />
-            My key areas of interest include developing
+            My key areas of interest include{" "}
             <i>
-              <b className="purple">
-                {" "}
-                Web Applications, Blockchain Solutions,{" "}
-              </b>
+              <b className="purple">backend system design, web application development, AI-driven solutions,{" "}</b>
             </i>
-            and exploring new ways to bridge on-chain and off-chain systems.
+            and exploring new technologies.
             <br />
             <br />
-            Whenever possible, I love building projects with
-            <b className="purple"> Node.js </b> and modern frameworks like{" "}
+            Whenever possible, I enjoy building end-to-end projects using modern frameworks like{" "}
             <i>
-              <b className="purple">React.js</b> and{" "}
-              <b className="purple">Next.js</b>.
+              <b className="purple">Spring Boot</b> and{" "}
+              <b className="purple">React.js</b>.
             </i>
+
           </p>
         </div>
         <div className=" pl-20 pt-20">
           <img
             src={myImage}
-            alt="home pic"
+            alt="my image"
             className="rounded-full"
             style={{ maxHeight: "350px" }}
           />
