@@ -39,7 +39,7 @@ const Particle = () => {
       move: {
         direction: "right",
         enable: true,
-        speed: 0.05,
+        speed: 0.2,
         straight: false,
       },
       size: {
