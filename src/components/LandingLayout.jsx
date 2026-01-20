@@ -6,7 +6,7 @@ import Header2 from './header/Header2.jsx'
 
 function LandingLayout() {
     return (
-        <>
+        <>  
 
             <div >
                 {/* Navigation Header */}
