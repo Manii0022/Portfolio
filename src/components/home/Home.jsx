@@ -1,11 +1,15 @@
 import React from "react";
-// Replaced react-icons with Lucide React
-import { Github, Twitter, Instagram, Linkedin } from "lucide-react";
 import Type from "../Type";
 import homeLogo from "../../assets/home-main.svg";
 import myImage from "../../assets/myImage.jpg";
 import myImage2 from "../../assets/myImage2.jpg";
 import "../../index.css"
+import {
+  AiFillGithub,
+  AiOutlineTwitter,
+  AiFillInstagram,
+} from "react-icons/ai";
+import { FaLinkedinIn } from "react-icons/fa";
 
 
 function Home() {
@@ -76,6 +80,61 @@ function Home() {
             className="rounded-full"
             style={{ maxHeight: "350px" }}
           />
+        </div>
+      </div>
+
+      <div className="pt-50 pb-20">
+        <div className="home-about-social">
+          <h1 className='text-5xl'>Find Me On</h1>
+          <p className=' text-lg pt-4 pb-4'>
+            Feel free to <span className="purple">connect </span>with me
+          </p>
+
+          <ul className="home-about-social-links">
+            <li className="social-icons">
+              <a
+                href="https://github.com/Manii0022"
+                target="_blank"
+                rel="noreferrer"
+                className="icon-colour home-social-icons"
+              >
+                <AiFillGithub />
+              </a>
+            </li>
+
+            <li className="social-icons">
+              <a
+                href="https://www.linkedin.com/in/manish-lodhi-87392a295/"
+                target="_blank"
+                rel="noreferrer"
+                className="icon-colour home-social-icons"
+              >
+                <FaLinkedinIn />
+              </a>
+            </li>
+
+            <li className="social-icons">
+              <a
+                href="https://www.instagram.com/manissh_0224"
+                target="_blank"
+                rel="noreferrer"
+                className="icon-colour home-social-icons"
+              >
+                <AiFillInstagram />
+              </a>
+            </li>
+
+            <li className="social-icons">
+              <a
+                href="https://x.com/ManishRajp6547"
+                target="_blank"
+                rel="noreferrer"
+                className="icon-colour home-social-icons"
+              >
+                <AiOutlineTwitter />
+              </a>
+            </li>
+          </ul>
         </div>
       </div>
 
