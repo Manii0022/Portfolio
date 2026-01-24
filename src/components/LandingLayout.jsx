@@ -18,7 +18,7 @@ function LandingLayout() {
                 </main>
 
                 {/* Footer */}
-                {/* <Footer /> */}
+                <Footer />
             </div>
 
         </>
